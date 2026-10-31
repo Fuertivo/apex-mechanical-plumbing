@@ -1,0 +1,177 @@
+  <section class="page-hero">
+    <div class="wrap">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <span aria-hidden="true">/</span>
+        <span aria-current="page">Contact</span>
+      </nav>
+      <p class="eyebrow">Central Dispatch &middot; Raleigh HQ</p>
+      <h1>Talk to a dispatcher, not a phone tree.</h1>
+      <p class="lede" style="max-width:62ch">Every call is answered by a live person in our Raleigh office during operational hours &mdash; and by the night desk after that. No offshore call center, no automated scheduling bot.</p>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="wrap">
+      <div class="contact-grid">
+        <div class="contact-card">
+          <span class="contact-card__label">Dispatch &amp; Service</span>
+          <a class="contact-card__value" href="tel:+15550147700">(555) 014-7700</a>
+          <p>Answered 24 hours a day for emergencies. Routine scheduling available Monday&ndash;Sunday, 7 AM&ndash;7 PM.</p>
+        </div>
+        <div class="contact-card">
+          <span class="contact-card__label">Email</span>
+          <a class="contact-card__value" href="mailto:dispatch@apexmechanical.example">dispatch@apexmechanical.example</a>
+          <p>For quotes, invoices and non-urgent scheduling. Replies within one business day.</p>
+        </div>
+        <div class="contact-card">
+          <span class="contact-card__label">Corporate Office</span>
+          <span class="contact-card__value">1420 Foundry Row, Suite 300<br>Raleigh, NC 27601</span>
+          <p>Office visits by appointment. Service trucks are dispatched from three yards, not this address.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--paper">
+    <div class="wrap">
+      <div class="split split--text-wide">
+        <div>
+          <p class="eyebrow">Appointment Request</p>
+          <h2>Request a callback, not a commitment.</h2>
+          <p class="lede">Send the basics and our dispatch team will call to confirm an arrival window. For the live calendar module, use the <a href="schedule.html">scheduling page</a>.</p>
+
+          <form class="form-card" data-demo-form style="margin-top:26px" novalidate>
+            <fieldset>
+              <legend class="sr-only">Appointment request details</legend>
+              <div class="form-grid">
+                <div class="field">
+                  <label for="name">Full name</label>
+                  <input id="name" name="name" type="text" autocomplete="name" placeholder="Jordan Rivera" required>
+                </div>
+                <div class="field">
+                  <label for="phone">Phone</label>
+                  <input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="(919) 555-0142" required>
+                </div>
+                <div class="field">
+                  <label for="email">Email <span class="optional">(optional)</span></label>
+                  <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com">
+                </div>
+                <div class="field">
+                  <label for="zip">Service ZIP code</label>
+                  <input id="zip" name="zip" type="text" inputmode="numeric" autocomplete="postal-code" placeholder="27601" required>
+                </div>
+                <div class="field field--full">
+                  <label for="service">Service needed</label>
+                  <select id="service" name="service">
+                    <option>Water heater &mdash; repair or replacement</option>
+                    <option>Drain or sewer</option>
+                    <option>Leak detection</option>
+                    <option>Whole-home repipe</option>
+                    <option>Main water line</option>
+                    <option>Fixture installation</option>
+                    <option>Commercial service</option>
+                    <option>Something else</option>
+                  </select>
+                </div>
+                <div class="field field--full">
+                  <label for="details">What is happening?</label>
+                  <textarea id="details" name="details" placeholder="Water heater is leaking from the base, no hot water since last night."></textarea>
+                </div>
+                <div class="field field--full">
+                  <p class="fineprint">By submitting, you agree that Apex Mechanical may contact you by phone, text or email about this request. This demonstration form does not transmit data.</p>
+                  <button class="btn btn--amber" type="submit">Request Callback</button>
+                  <p class="form-status" data-form-status tabindex="-1" hidden>This is a demonstration form. No data was sent. In production, this submission would create a dispatch ticket and trigger a callback. For an active leak, call (555) 014-7700.</p>
+                </div>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+
+        <div>
+          <div class="aside-card aside-card--navy">
+            <h3>Active leak or flooding?</h3>
+            <p>Skip the form. The emergency line is answered by a live dispatcher, 24/7, including holidays.</p>
+            <a class="aside-phone" href="tel:+15550147700">(555) 014-7700</a>
+            <p class="fineprint">Average emergency response in core metro ZIPs: 38 minutes.</p>
+          </div>
+
+          <div class="aside-card">
+            <h3>Operational hours</h3>
+            <table class="hours" style="margin-top:4px">
+              <caption class="sr-only">Operational hours</caption>
+              <tbody>
+                <tr><th scope="row">Monday</th><td>7:00 AM &ndash; 7:00 PM</td></tr>
+                <tr><th scope="row">Tuesday</th><td>7:00 AM &ndash; 7:00 PM</td></tr>
+                <tr><th scope="row">Wednesday</th><td>7:00 AM &ndash; 7:00 PM</td></tr>
+                <tr><th scope="row">Thursday</th><td>7:00 AM &ndash; 7:00 PM</td></tr>
+                <tr><th scope="row">Friday</th><td>7:00 AM &ndash; 7:00 PM</td></tr>
+                <tr><th scope="row">Saturday</th><td>7:00 AM &ndash; 7:00 PM</td></tr>
+                <tr><th scope="row">Sunday</th><td>7:00 AM &ndash; 7:00 PM</td></tr>
+              </tbody>
+            </table>
+            <p class="footer__emergency" style="color:var(--amber-700);margin-top:14px"><span></span>Emergency dispatch 24/7/365</p>
+          </div>
+
+          <div class="aside-card">
+            <h3>Departments</h3>
+            <ul>
+              <li><strong>Service &amp; scheduling</strong>dispatch@apexmechanical.example</li>
+              <li><strong>Commercial proposals</strong>commercial@apexmechanical.example</li>
+              <li><strong>Billing &amp; invoices</strong>billing@apexmechanical.example</li>
+              <li><strong>Careers</strong>careers@apexmechanical.example</li>
+            </ul>
+            <p class="fineprint" style="margin-top:12px">Email addresses use the reserved <code>.example</code> domain and are placeholders for this demonstration site.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Find Us</p>
+        <h2>Corporate office &amp; dispatch floor.</h2>
+        <p class="lede">Located southeast of downtown Raleigh, a few minutes off the I-40 and South Saunders interchange. Visitor parking is in front of Suite 300.</p>
+      </div>
+      <div class="panel panel--light" role="img" aria-label="Map placeholder for the Apex Mechanical corporate office in Raleigh">
+        <svg viewBox="0 0 1120 380" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="width:100%;height:auto">
+          <rect width="1120" height="380" fill="#eef3f9"></rect>
+          <g stroke="#dfe7f1" stroke-width="2">
+            <path d="M0 80h1120M0 190h1120M0 300h1120M160 0v380M420 0v380M700 0v380M960 0v380"></path>
+          </g>
+          <g stroke="#cfdae7" stroke-width="12" stroke-linecap="round" fill="none">
+            <path d="M-20 250h520l120-120h320l200 90"></path>
+            <path d="M200 -20v140l90 90v190"></path>
+          </g>
+          <g stroke="#e8a76b" stroke-width="4" stroke-dasharray="8 8" fill="none">
+            <path d="M420 380V300l200-120h160"></path>
+          </g>
+          <g>
+            <circle cx="560" cy="180" r="30" fill="rgba(238,150,75,.18)"></circle>
+            <circle cx="560" cy="180" r="12" fill="#0b2545" stroke="#ee964b" stroke-width="4"></circle>
+          </g>
+          <g fill="#57698a" font-family="Inter, sans-serif" font-size="12" letter-spacing="1.4">
+            <text x="578" y="168" fill="#0b2545" font-weight="700">APEX MECHANICAL &amp; PLUMBING</text>
+            <text x="578" y="188">1420 FOUNDRY ROW, SUITE 300 &middot; RALEIGH, NC</text>
+            <text x="60" y="340">I-40 / SOUTH SAUNDERS INTERCHANGE</text>
+          </g>
+        </svg>
+        <span class="panel-caption" style="color:var(--muted)">Static map placeholder &middot; replace with embedded provider</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="wrap cta-band__inner">
+      <div>
+        <h2>One number for every plumbing problem.</h2>
+        <p>Emergency dispatch, scheduling, billing and commercial proposals all route through the same Raleigh desk.</p>
+      </div>
+      <div class="cta-band__actions">
+        <a class="btn btn--amber" href="tel:+15550147700">Call (555) 014-7700</a>
+        <a class="btn btn--outline" href="schedule.html">Request Appointment Window</a>
+      </div>
+    </div>
+  </section>

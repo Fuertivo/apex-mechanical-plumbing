@@ -1,0 +1,11 @@
+# Local preview artifacts
+server.log
+server.pid
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+gh-login.log
